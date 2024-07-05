@@ -1,0 +1,189 @@
+* { /*tất cả mọi thẻ*/
+    margin: 0; /*phần lề nằm giữa đường viền của phần tử với các phần tử xung quanh*/
+    padding: 0; /*khoảng trống nằm giữa nội dung và viền*/
+  /*CHO HAI CÁI 0 ĐỂ GIẢM ĐI MẶC ĐỊNH SẴN TỪ TRÌNH DUYỆT*/
+  }
+  body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #565656;
+    text-align: left; /*căn lề nội dung*/
+    line-height: 1.5; /*chiều cao của mỗi dòng chữ*/
+    
+  
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar .brand {
+    font-size: 40px;
+    color: #CC9900;
+    padding: 10px;
+    
+}
+
+.navbar .nav-links {
+    display: flex; /*sắp xếp, bố cục các thành phần 1 khối (flexbox)*/
+    gap: 10px; /*Thiết lập khoảng cách (khoảng trống) giữa các thành phần con bên trong*/
+}
+
+.navbar .nav-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.navbar .nav-links a.active {
+    background-color:#CC9900;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px; /* Điều chỉnh khoảng lề của box cho rộng ra */
+    
+}
+.picture {
+    max-width: 100%;
+    height: 100%;
+}
+.picture img {
+    width: 100%;
+    height: 400px;
+}
+.text-information h4 {
+    color: #CC9900;
+    padding: 20px;
+    text-align: center;
+}
+.text-information p {
+    text-align: center;
+    color: #A6A48C;
+}
+.card-title.custom-text-color  {
+    color: #CC9900;
+}
+.card-text.custom-text-color-1 {
+    color: #A6A48C;
+}
+.btn-primary.custom-btn {
+    background-color:#CC9900;
+    border-color:#CC9900;
+    color: white; 
+}
+
+.links-section {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo các cột nằm cạnh nhau */
+    margin-top: -49%;
+}
+
+.column {
+    width: 50%; 
+    margin-left: 60%;
+}
+.column h4 {
+    color: #CC9900;
+}
+
+.column a {
+    display: block;
+    color: #006699;
+}
+.column-1 {
+    width: 100%; /* Điều chỉnh chiều rộng để các cột gần nhau hơn */
+    
+}
+.column-1 h4 {
+    color: #CC9900;
+    margin-left: 50%;
+}
+
+.column-1 a {
+    display: block;
+    color: #006699;
+    margin-left: 50%;
+    
+}
+
+.section-4 {
+    margin-left: 58%;
+    margin-top: 30px;
+}
+.card-right h4 {
+    margin-bottom: 20px;
+}
+.card-right {
+    margin-left: 770px;
+    margin-top: 30px;
+}
+.black-end {
+    background-color: #212529;
+    height: 500px;
+}
+.custom-text-color-2 {
+    color: #274352;
+    
+}
+.card-title.custom-text-color-3  {
+    color: #CC9900;
+    padding: 10px;
+}
+.column-3 {
+    width: 50%; 
+    margin-left: 30%;
+    margin-top: -25%;
+}
+.column-3 h5 {
+    color: #CC9900;
+}
+
+.column-3 a {
+    display: block;
+    color: #8C9651;
+}
+.list-group.list-group-flush.list-group-item.buston-color {
+    background-color: #212529;
+}
+.end-3 {
+    position: absolute;
+    width: 50%; /* Điều chỉnh giá trị để thu nhỏ chiều ngang */
+    max-width: 300px; 
+    margin-left: 600px;
+    margin-top: -160px;
+    
+}
+.btn-primary.custom-btn-3 {
+    background-color:#666666;
+    border-color:#666666;
+    color: #B3B3A4; 
+}
+.end-4 {
+    margin-top: -110px;
+    
+}
+
+.card-text.custom-text-color-4 {
+    color: #B3B3A4;
+}
+.btn-primary.custom-btn-1 {
+    background-color:#666666;
+    border-color:#212529;
+    color: #B3B3A4; 
+    
+}
+.card-title.custom-text-color-5 {
+    color: #CC9900;
+    margin-top: -40px;
+}
+
+
+    
+
+
