@@ -1,0 +1,222 @@
+* { /*tất cả mọi thẻ*/
+  margin: 0; /*phần lề nằm giữa đường viền của phần tử với các phần tử xung quanh*/
+  padding: 0; /*khoảng trống nằm giữa nội dung và viền*/
+/*CHO HAI CÁI 0 ĐỂ GIẢM ĐI MẶC ĐỊNH SẴN TỪ TRÌNH DUYỆT*/
+}
+body {
+  background-color: #fafafa;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #565656;
+  text-align: left; /*căn lề nội dung*/
+  line-height: 1.5; /*chiều cao của mỗi dòng chữ*/
+  
+
+}
+.section {
+  float: left; /*chuyển vị trí và định dạng nội dung một phần tử*/
+  width: 100%;
+}
+.container {
+  width: 1280px;
+  float: none;
+  margin-left: auto; /*dùng để xác định khoảng cách "lề bên trái" của phần tử HTML*/
+  margin-right: auto;
+  /*dù phóng to hay bé, luôn giữ cho giao diện nằm giữa màn hình*/
+  
+}
+
+header {
+    border-radius: 10px;
+    background-color: #04492D;
+    color: white;
+}
+header nav a {
+    color: white; 
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+.button-container  {
+    position: relative;
+    display: inline-block;
+  }
+  main {
+    background-color: #DCD7D1;
+    padding: 20px; 
+  }
+.button-first {
+  margin-left: 120px;
+  
+}
+.btn-bt-success {
+  background-color: white; 
+  color:#034d2e;
+  margin-left: 28px;
+  margin-top: 4px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px; /*10px là khoảng cách padding ở phía trên và dưới (top và bottom).20px là khoảng cách padding ở hai bên (left và right).*/
+  border-radius: 20px; 
+  font-size: 10px;
+  
+}
+.btn-button-success {
+  background-color: #034d2e; 
+  width: 130px;
+  height: 45px;
+  padding: 10px 20px; /*10px là khoảng cách padding ở phía trên và dưới (top và bottom).20px là khoảng cách padding ở hai bên (left và right).*/
+  border-radius: 20px; 
+}
+
+.btn-button-success svg {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: -7px;
+  fill: yellow; /* Được sử dụng trong SVG để xác định màu bên trong của các hình dạng được vẽ */
+}
+.button-title h1 {
+  padding: 20px;
+  margin-left: 100px;
+  color: #04492D;
+  
+  
+}
+.button-title p {
+  margin-left: 120px;
+  color: #A3A09B;
+  
+}
+.button-2 {
+  border-radius: 100px;
+}
+
+.btn-custom-success {
+  margin-left: 120px;
+  background-color: #034d2e; 
+  color: white;
+  border: none;
+  padding: 10px 20px; /*10px là khoảng cách padding ở phía trên và dưới (top và bottom).20px là khoảng cách padding ở hai bên (left và right).*/
+  border-radius: 20px; 
+}
+
+.btn-custom-light {
+  background-color: #e1ff00; 
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; 
+}
+.button-image {
+  margin-left: 60%;
+  margin-top: -300px;
+  max-width: 100%;
+  height: 400px;
+}
+.button-image img {
+  max-width: 100%;
+  height: 300px;
+}
+.manage-promotion {
+  margin-top: -60px;
+  background-color: #04492D;
+}
+.btn-primary.btn-lg, .btn-secondary.btn-lg {
+  margin-top: 100px;
+  margin-left: 180px;
+  font-size: 16px;
+  background-color: #043B24; 
+  color: white;
+  padding: 20px;
+  width: 450px;
+  text-align: center;
+  border: 2px solid #043B24; /* Đổi màu viền ngoài */
+}
+.btn-primary {
+  margin-top: 100px;
+  margin-left: 110px;
+  font-size: 25px;
+  width: 200px;
+  background-color: #043B24; 
+  color: white;
+  padding: 20px;
+  border: 2px solid #043B24; /* Đổi màu viền ngoài */
+}
+
+
+
+.custom-btn {
+  background-color: #043B24; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 200px;
+  height: 80px;
+  
+  font-size: 25px;
+}
+.Business-strategy {
+  background-color:#DCD7D1;
+ 
+  
+}
+.btn-bt-success-1 {
+  background-color: white; 
+  color:#034d2e;
+  margin-left: 28px;
+  margin-top: 100px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px; /*10px là khoảng cách padding ở phía trên và dưới (top và bottom).20px là khoảng cách padding ở hai bên (left và right).*/
+  border-radius: 20px; 
+  font-size: 10px;
+  
+}
+.btn-button-success-1{
+  background-color: #034d2e; 
+  width: 130px;
+  height: 45px;
+  padding: 10px 20px; /*10px là khoảng cách padding ở phía trên và dưới (top và bottom).20px là khoảng cách padding ở hai bên (left và right).*/
+  border-radius: 20px; 
+  margin-top: 98px;
+}
+.btn-button-success-1 svg {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: -7px;
+  fill: yellow; /* Được sử dụng trong SVG để xác định màu bên trong của các hình dạng được vẽ */
+}
+.btn-outline-success {
+  margin-top: 20px;
+  margin-left: 60%;
+  font-size: 16px;
+  color:#A3A09B;
+  padding: 20px;
+  width: 450px;
+  text-align: left;
+  border: 2px solid #507965;
+}
+.btn-outline-success h5 {
+  color: #034d2e;
+}
+.button-title-1 h1 {
+  
+  color: #04492D;
+  
+}
+.button-title-1 p { 
+  color: #A3A09B;
+  
+}
+.button-title-1 {
+  position: absolute;
+
+}
+.ft-end {
+  background-color: #034d2e;
+}
+
+
+  
+  
